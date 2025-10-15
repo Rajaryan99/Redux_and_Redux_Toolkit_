@@ -2,7 +2,7 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit'
 
 
-const initalState = {
+const initialState = {
     todos: [{id: "abc", task: 'Demotask', idDone: false}],
 };
 
