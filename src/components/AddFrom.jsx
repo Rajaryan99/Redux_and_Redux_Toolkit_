@@ -8,9 +8,10 @@ export default function AddFrom() {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        console.log(task)
+        // console.log(task)
+         settask("");
         dispatch(addTodo(task))
-        s
+       
     }
 
     return(
